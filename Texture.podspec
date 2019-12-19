@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/TextureGroup/Texture.git', :tag => spec.version.to_s }
   spec.module_name  = 'AsyncDisplayKit'
   spec.header_dir   = 'AsyncDisplayKit'
-
+  spec.private_header_files =  ['ASDisplayNodeLayout.h']
   spec.documentation_url = 'http://texturegroup.org/appledoc/'
 
   spec.ios.deployment_target = '9.0'
