@@ -56,7 +56,7 @@ let package = Package(
         .target(
             name: "AsyncDisplayKit",
             dependencies: ["PINRemoteImage"],
-            path: "spm/Sources/AsyncDisplayKit",
+            path: "Sources/AsyncDisplayKit",
             cSettings: headersSearchPath + sharedDefines + IGListKit(enabled: false)
         )
     ],
